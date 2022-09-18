@@ -14,20 +14,21 @@ body {
 #header-logo {
   width: 268px;
   height: 33px;
+  margin-top: 15px;
 }
 
 nav {
   top: 0;
+  box-shadow: 0 0px 10px 0 rgb(0 0 0 / 15%);
 }
 
 .main_header {
   background-color: #fff;
-  margin: auto;
+  margin-inline: auto;
   padding: 0 20px;
-  line-height: 80px;
+  line-height: 50px;
   align-items: center;
   width: 100%;
-  max-width: 1015px;
   position: fixed; /* this is what made the header elements aligned in the responsive design*/
 }
 
@@ -314,8 +315,6 @@ option {
   color: #00b39b;
   font-family: "work sans", Arial, sans-serif;
   font-weight: 300;
-  /* letter-spacing: 0.3px; */
-  /* margin: 0.25em 0 0.35em 30px; */
 }
 
 @media (max-width: 600px) {
@@ -569,7 +568,6 @@ svg:hover {
   font-size: 1.125em;
   font-weight: 400;
   line-height: 1.6666666667;
-  /* width: 269px; */
   color: #747474;
   font-family: "Roboto", Arial, sans-serif;
 }
